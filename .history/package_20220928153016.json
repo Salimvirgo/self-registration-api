@@ -1,0 +1,21 @@
+{
+  "name": "omself_registration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "start": "node register.js",
+    "dev": "nodemon register.js"
+  },
+  "author": "Salim M. Jalloh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "fast-xml-parser": "^4.0.9",
+    "moment": "^2.29.4",
+    "nodemon": "^2.0.19",
+    "request": "^2.88.2",
+    "ussd-menu-builder": "^1.2.0"
+  }
+}

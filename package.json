@@ -4,18 +4,21 @@
   "description": "",
   "main": "api.js",
   "scripts": {
-    "start": "node api.js",
-    "dev": "nodemon api.js"
+    "start": "node register.js",
+    "dev": "nodemon register.js"
   },
   "author": "Salim M. Jalloh",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
     "express": "^4.18.1",
     "fast-xml-parser": "^4.0.9",
+    "helmet": "^6.0.0",
     "moment": "^2.29.4",
     "nodemon": "^2.0.19",
     "request": "^2.88.2",
+    "smpp": "^0.6.0-rc.4",
     "ussd-menu-builder": "^1.2.0"
   }
 }

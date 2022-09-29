@@ -1,0 +1,1 @@
+alert("data-123data-".replace(/data-/g,''));
